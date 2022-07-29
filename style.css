@@ -1,0 +1,472 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 255rem;
+    background-color: #0D0D0D;
+    font-family: 'Red Rose', 'cursive';
+
+
+}
+html{
+    font-size: 62.5%;
+    color: white;
+    scroll-behavior: smooth;
+
+}
+a{
+    text-decoration: none !important;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0);
+}
+.head{
+    align-items: center;
+    display: flex;
+    height: 150px;
+    gap: 1000px;
+    background-image: linear-gradient(to right,#FFEF03,  #2C7598);
+}
+
+.logo{
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+}
+.logol{
+    display: flex;
+    justify-content: right;
+    font-size: 50px;
+    margin-left: 100px;
+    background-image: linear-gradient(to right,  #2C7598, #FFEF03);
+
+}
+.logol li{
+    list-style: none;
+    float: left;
+    color: #000;
+    padding: 20px 50px;
+    border: #FFEF03 solid 4px;
+    background-image: linear-gradient(to right,  #2C7598, #FFEF03);
+
+}
+.logo h1{
+    background-image: linear-gradient(to right,  #2C7598, #FFEF03);
+    font-size: 80px;
+    color: #000;
+    padding: 15px;
+    border: #2C7598 solid 5px;
+
+}
+
+.logol li:hover{
+    cursor: pointer;
+    border: black solid 4px;
+    background-image: linear-gradient(to right,#FFEF03,  #2C7598);
+
+}
+.logo h1:hover{
+    background-image: linear-gradient(to right, #FFEF03,  #2C7598);
+    cursor: pointer;
+    border: black solid 5px;
+}
+/* end of head part */
+
+.sec1{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 150px;
+}
+.sec1 img{
+    border-radius: 300px;
+}
+
+.sec1cont p{
+    -webkit-background-clip: text;
+    font-size: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(to right,  #2C7598, #FFEF03);
+    background-clip: text;
+    color: transparent;
+}
+
+.sec1cont h1{
+    -webkit-background-clip: text;
+    font-size: 150px;
+    font-weight: 900;
+    background-image: linear-gradient(to right,  #2C7598, #FFEF03);
+    background-clip: text;
+    color: transparent;
+}
+.sec1cont h4{
+    -webkit-background-clip: text;
+    font-size: 40px;
+    font-weight: 900;
+    background-image: linear-gradient(to right,  #2C7598, #FFEF03);
+    background-clip: text;
+    color: transparent;
+}
+.sec1cont button{
+    background-image: linear-gradient(to right,  #2C7598, #FFEF03);
+    margin-top: 30px;
+    width: 400px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+    border: none;
+    border-radius: 80px;
+}
+
+.sec1cont button:hover{
+    cursor: pointer;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right,  #2C7598, #FFEF03);
+    background-clip: text;
+    color: transparent;   
+    border: #2C7598 solid 5px;
+}
+.sec1cont button:hover a{
+    cursor: pointer;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right,  #2C7598, #FFEF03);
+    background-clip: text;
+    color: transparent;   
+}
+
+.sec2{
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    margin: 180px 0px;
+    margin-top: 200px;
+}
+
+.sec2 h1{
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right,  #2C7598, #FFEF03);
+    background-clip: text;
+    color: transparent;
+    background-color: #000;
+    
+}
+
+/* end of section 1 and 2 ^ */
+
+
+.sec3 div img{ 
+    width: 600px;
+    border-radius: 20px;
+    border: #000 solid 4px;
+}
+.sec3head h1{
+    -webkit-background-clip: text;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    background-image: linear-gradient(to right,  #2C7598, #FFEF03);
+    background-clip: text;
+    color: transparent;
+}
+
+.sec3{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    margin: 100px 150px;
+    column-gap: 120px;
+    row-gap: 250px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sec3 .td{
+    text-align: center;
+    background-image: linear-gradient(to right,  #2C7598, #FFEF03);
+    padding: 50px;
+    border-radius: 20px;
+    border: white 8px solid;
+
+
+}
+
+
+.sec3 h2{
+    margin-left: 90px;
+    width: 400px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    margin-top: -20px;
+    background-image: linear-gradient(to right,#FFEF03,  #2C7598);
+    font-weight: 900;
+    color: #000;
+    border: #000 5px solid;
+}
+
+.td:hover h2{
+    background-image: linear-gradient(to right,#2C7598, #FFEF03);
+    transition-delay: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.td img:hover{
+    width: 650px;
+    transition-delay: 0.3s;
+    transition-duration: 0.8s;
+}
+
+
+.secb{
+    background-image: linear-gradient(to right,#2C7598, #FFEF03);
+    margin-top: 40px;
+    margin-bottom: -30px;
+    border-radius: 20px;
+    border: #000 solid 5px;
+}
+.secb button{
+    width: 200px;
+    margin: 10px 30px;
+    height: 70px;
+    color: white;
+    font-size: 20px;
+    padding: 0px 20px;
+    font-weight: 900;
+    border: none;
+    border-radius: 20px;
+}
+.secb button a{
+    color: white;
+}
+
+
+.secb button:hover {
+    background-color: rgb(23, 145, 233);
+    border: #000 solid 3px;
+    cursor: pointer;
+    color: rgb(15, 165, 240);
+    width: 220px;
+    transition-delay: 0.2s;
+    transition-duration: 0.5s;
+
+}
+.secb button a:hover{
+    color: #000;
+}
+
+
+
+
+
+
+
+/* end of section 3 */
+
+.last{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    font-size: 50px;
+    gap: 50px;
+    margin-bottom: 100px;
+    
+}
+.last h1{
+    font-size: 100px;
+    -webkit-background-clip: text;
+    font-size: 150px;
+    font-weight: 900;
+    background-image: linear-gradient(to right,  #2C7598, #FFEF03);
+    background-clip: text;
+    color: transparent;
+}
+
+.last h3{
+    -webkit-background-clip: text;
+    font-weight: 900;
+    background-image: linear-gradient(to right,  #2C7598, #FFEF03);
+    background-clip: text;
+    color: transparent;
+}
+.lastgrid img{
+    width: 100px;
+}
+
+.lastgrid{
+    margin-left: 250px;
+    margin-bottom: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-right: 300px;
+    border: #FFEF03  solid 5px;
+    column-gap: 100px;
+}
+.lastgrid div{
+    align-items: center;
+    padding: 50px;
+
+}
+.last1{
+    text-align: center;
+}
+
+.last1 button{
+    background-image: linear-gradient(to right,  #2C7598, #FFEF03);
+    width: 100px;
+    height: 50px;
+    color: black;
+    font-weight: 900;
+    font-size: 18px;
+    align-items: center;
+    border: white solid 3px;
+}
+.last1 img{
+    background-image: linear-gradient(to right,  #2C7598, #FFEF03);
+    border-radius: 20px;
+    border: white solid 3px;
+
+}
+
+.sec3 .td:hover{
+    background-image: linear-gradient(to right,#0b0b0b, black);
+    transition-delay: 1s;
+    transition-duration: 0.5s;
+}
+
+
+/*responsive*/
+
+
+@media only screen and (max-width: 750px){
+    body{
+        max-width: 750px;
+    }
+    .head{
+        position: fixed;
+        bottom: 0px;
+        overflow: auto;
+        white-space: nowrap;
+        width: 750px;
+        align-items: center;
+        height: 100px;
+        background-image: linear-gradient(to right,  #2c769831, #ffee0327);
+
+    }
+
+    .logo{
+        display: none;
+
+    }
+    .logol{
+        width: 850px;
+        justify-content: center;
+        font-size: 10px;
+        margin-left: 10px;
+
+    }
+
+    .logol li{
+        display: inline-block;
+        margin: 0px 0px;
+
+
+    }
+
+    .sec1{
+        display: flex;
+        margin-top: 50px;
+        gap: 20px;
+    }
+
+
+    .sec1cont h1{
+        font-size: 25px;
+    }
+    .sec1cont h4{
+        font-size: 12px;
+    }
+    .sec1cont p{
+        font-size: 15px;
+    }
+    .sec1cont button{
+        font-size: 12px;
+        width: 100px;
+        height: 30px;
+    }
+   .sec1img img{
+    width: 150px;
+   }
+
+   .sec2{
+    margin-top: -100px;
+    font-size: 20px;
+   }
+
+   .sec3head h1{
+    font-size: 70px;
+    border-top: #FFEF03 5px solid;
+    margin: 0px 30px;
+    margin-top: -100px;
+    line-height: 150px;
+    border-bottom: #FFEF03 5px solid;
+   }
+
+   .sec3{
+    grid-template-columns: 1fr;
+    grid-row: 20px !important;
+   }
+   .td h2{
+      font-size: 20px;
+      width: 150px;
+   }
+
+
+   .td img{
+    width: 340px !important;
+}
+
+.td{
+    width: 350px;
+}
+.last{
+    
+    margin-top: 100px;
+    gap: 10px;
+}
+
+.last h1{
+    font-size: 40px;
+}
+.last h3{
+    font-size: 20px;
+}
+.last1{
+    width: 100px;
+    gap: 10px;
+    text-align: center;
+}
+.last1 img{
+    width: 70px;
+}
+
+.last1 button{
+    width: 100px;
+    font-size: 20px;
+    margin-left: -50px;
+}
+.lastgrid{
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+}
