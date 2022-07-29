@@ -2,7 +2,7 @@
 
 By Prince Kr Paswan
 
-## [Link to the Visual Portfolio](https://visual-design-page.netlify.app/)
+## [Link to MY Portfolio](https://prince-kr.netlify.app/)
 
 
 ![Completed Website](asset/pk1.png)
