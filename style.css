@@ -340,7 +340,7 @@ a{
 
 @media only screen and (max-width: 750px){
     body{
-        max-width: 750px;
+        max-width: 800px;
     }
     .head{
         position: fixed;
