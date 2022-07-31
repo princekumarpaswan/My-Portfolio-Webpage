@@ -7,6 +7,9 @@
 
 
 }
+body{
+    width: auto;
+}
 html{
     font-size: 62.5%;
     color: white;
@@ -486,6 +489,7 @@ a{
     body{
         max-width: 500px;
         justify-content: center;
+        width: auto !important;
     }
     .head{
         position: fixed;
